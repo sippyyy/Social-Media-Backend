@@ -4,7 +4,7 @@ from .database import engine
 from .routes import post,user,auth,vote
 from fastapi.middleware.cors import CORSMiddleware
 
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
@@ -26,6 +26,6 @@ app.include_router(vote.routers)
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Social media backend!!!"}
 
 

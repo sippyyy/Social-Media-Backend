@@ -1,0 +1,7 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "editor.defaultFormatter": "giyyapan.pyformat"
+    },
+    "python.formatting.provider": "none"
+}
